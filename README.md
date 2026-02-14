@@ -1,7 +1,7 @@
 > [!CAUTION]  
-> **This service is now maintained by Planetary as Orbit.**  
+> **This service is now maintained by Firefli.**  
 > All future updates and support will be provided under the new name: **Orbit**.  
-> Join our [**Discord**](https://discord.gg/planetary) for the latest news, updates, and support.
+> Join our [**Discord**](https://discord.gg/firefli) for the latest news, updates, and support.
 <div>
   <div align="center">
     <img height="250px" src=".github/logo.png"></img>
