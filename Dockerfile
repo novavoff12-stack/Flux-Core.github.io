@@ -5,10 +5,12 @@ RUN mkdir -p /usr/src/app
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 
-COPY . /usr/src/app
+# Installer med legacy-peer-deps (viktig!)
+RUN npm install --legacy-peer-deps
 
-RUN npm install
+# Generer Prisma-klienten
 RUN npm run prisma:generate
-RUN npm run build
+
 EXPOSE 3000
+
 CMD ["npm", "run", "start"]
